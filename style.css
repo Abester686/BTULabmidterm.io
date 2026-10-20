@@ -873,3 +873,6 @@ small, .small {
 .note-bottom {
   margin-top: 1.3rem;
 }
+.steps li::before {
+  display: none;
+}
