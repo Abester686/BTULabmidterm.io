@@ -181,10 +181,10 @@ small, .small {
   font-size: .95rem;
 }
 
-.site-nav a:hover {
+/* .site-nav a:hover {
   background: var(--surface-blue);
   color: var(--deep);
-}
+} */
 
 .site-nav a[aria-current="page"] {
   color: var(--deep);
@@ -303,7 +303,7 @@ small, .small {
 
 /* BUTTONS AND LINKS */
 
-.button {
+/* .button {
   display: inline-flex;
   gap: .5rem;
   align-items: center;
@@ -317,46 +317,46 @@ small, .small {
   text-decoration: none;
   line-height: 1.3;
   transition: background-color .15s ease, transform .15s ease;
-}
+} */
 
-.button:hover {
+/* .button:hover {
   transform: translateY(-2px);
-}
+} */
 
-.button--yellow {
+/* .button--yellow {
   background: var(--color-highlight);
   color: #203242;
-}
+} */
 
-.button--yellow:hover {
+/* .button--yellow:hover {
   background: #ffda55;
   color: #203242;
-}
+} */
 
-.button--outline {
+/* .button--outline {
   border: 2px solid #d8e9f3;
   color: #fff;
   background: transparent;
-}
+} */
 
-.button--outline:hover {
+/* .button--outline:hover {
   background: rgba(255, 255, 255, .12);
   color: #fff;
-}
+} */
 
-.button--dark {
+/* .button--dark {
   background: var(--color-neutral);
   color: #fff;
-}
+} */
 
-.button--dark:hover {
+/* .button--dark:hover {
   background: #26374a;
   color: #fff;
-}
+} */
 
-.text-link {
+/* .text-link {
   font-weight: 700;
-}
+} */
 
 /* CONTENT SECTIONS */
 
@@ -440,19 +440,19 @@ small, .small {
   display: inline-block;
 }
 
-.card-link {
+/* .card-link {
   display: block;
   text-decoration: none;
   color: var(--ink);
   height: 100%;
   transition: transform .15s ease, border-color .15s ease;
-}
+} */
 
-.card-link:hover {
+/* .card-link:hover {
   border-color: #74b6dd;
   transform: translateY(-3px);
   color: var(--ink);
-}
+} */
 
 .card-link .arrow {
   color: #15577f;
