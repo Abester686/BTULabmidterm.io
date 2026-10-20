@@ -1,45 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find BTU Lab orientations, workshops, and events on the official lab calendar.">
     <title>When | BTU Lab Redesign</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="BTU Lab — Home">
+                <span class="brand-mark" aria-hidden="true">B/</span>
+                <span>BTU Lab</span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="staff.html">Who</a></li>
+                    <li><a href="contentsofbtu.html">What</a></li>
+                    <li><a href="time.html" aria-current="page">When</a></li>
+                    <li><a href="Semantic.html">How</a></li>
+                    <li><a href="wa6.html">WA6</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <h1>BTU Lab</h1>
+    <main id="main">
+        <section class="page-hero" aria-labelledby="page-title">
+            <div class="container">
+                <p class="eyebrow">When · Calendar</p>
+                <h1 id="page-title">Find an orientation or event.</h1>
+                <p>The official BTU calendar lists general orientations, specialized training, workshops, and scheduled events.</p>
+            </div>
+        </section>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="staff.html">Who</a>
-        <a href="Semantic.html">How</a>
-        <a href="time.html" aria-current="page">When</a>
-        <a href="contentsofbtu.html">What</a>
-    </nav>
-</header>
+        <section class="section section--white" aria-labelledby="calendar-title">
+            <div class="container split">
+                <article class="panel panel--dark">
+                    <p class="eyebrow">Official schedule</p>
+                    <h2 id="calendar-title">BTU Lab Calendar</h2>
+                    <p>Check the live calendar to see the most up-to-date event and orientation dates. Specific times change, so this redesign does not list unverified schedules.</p>
+                    <a class="button button--yellow" href="https://sites.google.com/view/btu-lab/btu-lab-calendar">Open the BTU Calendar →</a>
+                </article>
+                <article class="panel">
+                    <span class="section-kicker">Before you attend</span>
+                    <h2>What to look for</h2>
+                    <ul class="info-list">
+                        <li>General BTU orientation</li>
+                        <li>Laser cutter orientation</li>
+                        <li>Wood shop orientation and registration</li>
+                        <li>Workshops and other scheduled events</li>
+                    </ul>
+                    <p class="small muted">Some tools require separate orientations in addition to the general session.</p>
+                </article>
+            </div>
+        </section>
 
-<main>
+        <section class="section" aria-labelledby="events-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-kicker">Plan your visit</span>
+                    <h2 id="events-title">Find the right session.</h2>
+                </div>
+                <div class="card-grid card-grid--three">
+                    <article class="card">
+                        <span class="card-number">GENERAL</span>
+                        <h3>New-member orientation</h3>
+                        <p>A 20-minute introduction covering community expectations, safety, and equipment.</p>
+                        <a class="text-link" href="Semantic.html">About getting started →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">EQUIPMENT</span>
+                        <h3>Specialized orientations</h3>
+                        <p>Laser and wood shop access involve separate orientations; some other tools also have additional training.</p>
+                        <a class="text-link" href="Semantic.html#training-title">See requirements →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">COMMUNITY</span>
+                        <h3>Workshops and events</h3>
+                        <p>BTU's calendar is the source for workshops and other planned events.</p>
+                        <a class="text-link" href="https://sites.google.com/view/btu-lab/btu-lab-calendar">See the official calendar →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <section>
-        <h2>When</h2>
+        <section class="section section--compact section--white" aria-label="Visit information">
+            <div class="container note">
+                <p><strong>Location:</strong> 320 UCB, 1125 18th St, Boulder, CO 80309. For schedule questions, email <a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a>.</p>
+            </div>
+        </section>
+    </main>
 
-        <article>
-            <h3>Calendar and Events</h3>
-            <p>
-                Orientation times and scheduled BTU Lab events are available
-                through the lab calendar.
-            </p>
-        </article>
-    </section>
-
-</main>
-
-<footer>
-    <p>This website is a class redesign project and is not the official BTU Lab website.</p>
-</footer>
-
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <p class="footer-title">BTU Lab</p>
+                <address>320 UCB · 1125 18th St<br>Boulder, CO 80309</address>
+            </div>
+            <div>
+                <p><a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a></p>
+                <p><a href="https://sites.google.com/view/btu-lab/home">Original BTU Lab website</a></p>
+                <p class="disclaimer">This is a class redesign project, not the official BTU Lab website.</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>

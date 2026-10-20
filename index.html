@@ -1,54 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the BTU Lab, a community makerspace at CU Boulder. Find access, events, resources, and contact information.">
     <title>Home | BTU Lab Redesign</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="BTU Lab — Home">
+                <span class="brand-mark" aria-hidden="true">B/</span>
+                <span>BTU Lab</span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="staff.html">Who</a></li>
+                    <li><a href="contentsofbtu.html">What</a></li>
+                    <li><a href="time.html">When</a></li>
+                    <li><a href="Semantic.html">How</a></li>
+                    <li><a href="wa6.html">WA6</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-    <h1>BTU Lab</h1>
+    <main id="main">
+        <section class="hero" aria-labelledby="home-title">
+            <div class="container hero-inner hero-grid">
+                <div>
+                    <p class="eyebrow">ATLAS · CU Boulder</p>
+                    <h1 id="home-title">Blow. Things. <em>Up.</em></h1>
+                    <p>The ATLAS BTU Lab is an inclusive community makerspace where art, design, engineering, and architecture meet. It is a shared workspace and a home for workshops and creative experiments.</p>
+                    <div class="hero-actions">
+                        <a class="button button--yellow" href="Semantic.html">How to get started →</a>
+                        <a class="button button--outline" href="time.html">View the calendar</a>
+                    </div>
+                </div>
+                <figure class="hero-photo">
+                    <img src="assets/btu-lab-workshop.webp" alt="People working together around tables in the BTU Lab makerspace" width="912" height="668">
+                    <figcaption>Inside the BTU Lab community makerspace</figcaption>
+                </figure>
+            </div>
+        </section>
 
-    <nav>
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="staff.html">Who</a>
-        <a href="Semantic.html">How</a>
-<<<<<<< HEAD:homepage.html
-<<<<<<< HEAD
-        <a href="calender.html">When</a>
-=======
-        <a href="index1.html">When</a>
->>>>>>> b1cc133ea5b266882115160d95cee5eeb3b74578
-=======
-        <a href="time.html">When</a>
->>>>>>> 29c24a758e480ab81c821973186aac83b447ac6d:index.html
-        <a href="contentsofbtu.html">What</a>
-    </nav>
-</header>
+        <section class="section" aria-labelledby="explore-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-kicker">Explore the lab</span>
+                    <h2 id="explore-title">Find what you need, faster.</h2>
+                    <p>Start with the information that matters to your visit.</p>
+                </div>
+                <div class="card-grid card-grid--four">
+                    <a class="card card-link" href="staff.html">
+                        <span class="card-number">01 / WHO</span>
+                        <h3>Who is BTU for?</h3>
+                        <p>Meet the makerspace community and the people who can help.</p>
+                        <span class="arrow">Meet the team →</span>
+                    </a>
+                    <a class="card card-link" href="Semantic.html">
+                        <span class="card-number">02 / HOW</span>
+                        <h3>How do I start?</h3>
+                        <p>Find general orientation information and equipment requirements.</p>
+                        <span class="arrow">Learn how →</span>
+                    </a>
+                    <a class="card card-link" href="time.html">
+                        <span class="card-number">03 / WHEN</span>
+                        <h3>When is it happening?</h3>
+                        <p>Find the calendar for orientations, workshops, and events.</p>
+                        <span class="arrow">See schedule →</span>
+                    </a>
+                    <a class="card card-link" href="contentsofbtu.html">
+                        <span class="card-number">04 / WHAT</span>
+                        <h3>What can I use?</h3>
+                        <p>Explore tools, making resources, and the materials policy.</p>
+                        <span class="arrow">Explore resources →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-<main>
+        <section class="section section--white" aria-labelledby="visit-title">
+            <div class="container split">
+                <div class="panel panel--dark">
+                    <span class="section-kicker section-kicker--yellow">Find us</span>
+                    <h2 id="visit-title">Where to find the BTU Lab</h2>
+                    <address>320 UCB<br>1125 18th St<br>Boulder, CO 80309</address>
+                    <div class="button-row">
+                        <a class="button button--yellow" href="https://www.google.com/maps/search/?api=1&amp;query=1125+18th+St+Boulder+CO+80309">View address on Maps →</a>
+                    </div>
+                </div>
+                <div class="panel">
+                    <span class="section-kicker">Questions?</span>
+                    <h2>Get in touch</h2>
+                    <p>For questions about the BTU Lab, email the lab directly.</p>
+                    <a class="text-link" href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com →</a>
+                    <p class="small muted note-bottom">The original site notes that the lab cannot currently sponsor BuffOne Guest cards.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <section>
-        <h2>Welcome to the BTU Lab</h2>
-        <p>
-            The BTU Lab is an inclusive community makerspace supporting
-            projects involving art, design, engineering, and architecture.
-        </p>
-    </section>
-
-    <section>
-        <h2>Where</h2>
-        <p>1125 18th St, Boulder, CO 80309</p>
-    </section>
-
-</main>
-
-<footer>
-    <p>This website is a class redesign project and is not the official BTU Lab website.</p>
-</footer>
-
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <p class="footer-title">BTU Lab</p>
+                <address>320 UCB · 1125 18th St<br>Boulder, CO 80309</address>
+            </div>
+            <div>
+                <p><a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a></p>
+                <p><a href="https://sites.google.com/view/btu-lab/home">Original BTU Lab website</a></p>
+                <p class="disclaimer">This is a class redesign project, not the official BTU Lab website.</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
