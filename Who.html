@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-        <style>
+     <style>
             /* CSS Reset and Base Styles */
             :root {
                 /* Color Palette - 5 Core Colors */
@@ -114,11 +114,11 @@
                 border: 2px solid transparent;
             }
 
-            .button:hover {
+            /* .button:hover {
                 background-color: color-mix(in srgb, var(--color-primary) 80%, black);
                 border-color: var(--color-secondary);
                 transform: scale(1.05);
-            }
+            } */
 
             .button:active {
                 transform: scale(0.95);
@@ -131,11 +131,11 @@
                 transition: color 0.3s ease, text-decoration-color 0.3s;
             }
 
-            .link:hover {
+            /* .link:hover {
                 color: var(--color-accent);
                 text-decoration: underline;
                 text-decoration-color: var(--color-highlight);
-            }
+            } */
 
             .link:visited {
                 color: var(--color-neutral);
@@ -153,15 +153,13 @@
                 background-color: var(--color-primary);
                 height: 50px;
             }
-
-
         </style>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Find BTU Lab orientations, workshops, and events on the official lab calendar.">
-    <title>When | BTU Lab Redesign</title>
+    <meta name="description" content="Who can use BTU Lab and who are the Mischief Makers? Read about access and staff.">
+    <title>Who | BTU Lab Redesign</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -178,10 +176,10 @@
             <nav class="site-nav" aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="staff.html">Who</a></li>
-                    <li><a href="contentsofbtu.html">What</a></li>
-                    <li><a href="time.html" aria-current="page">When</a></li>
-                    <li><a href="Semantic.html">How</a></li>
+                   <li><a href="Who.html">Who</a></li>
+                    <li><a href="What.html">What</a></li>
+                    <li><a href="When.html">When</a></li>
+                    <li><a href="How.html">How</a></li>
                     <li><a href="wa6.html">WA6</a></li>
                 </ul>
             </nav>
@@ -191,68 +189,91 @@
     <main id="main">
         <section class="page-hero" aria-labelledby="page-title">
             <div class="container">
-                <p class="eyebrow">When · Calendar</p>
-                <h1 id="page-title">Find an orientation or event.</h1>
-                <p>The official BTU calendar lists general orientations, specialized training, workshops, and scheduled events.</p>
+                <p class="eyebrow">Who · People & access</p>
+                <h1 id="page-title">A space for makers of all types.</h1>
+                <p>The lab welcomes makers with different experiences and interests. Learn about access and find the people behind BTU.</p>
             </div>
         </section>
 
-        <section class="section section--white" aria-labelledby="calendar-title">
+        <section class="section" aria-labelledby="access-title">
             <div class="container split">
-                <article class="panel panel--dark">
-                    <p class="eyebrow">Official schedule</p>
-                    <h2 id="calendar-title">BTU Lab Calendar</h2>
-                    <p>Check the live calendar to see the most up-to-date event and orientation dates. Specific times change, so this redesign does not list unverified schedules.</p>
-                    <a class="button button--yellow" href="https://sites.google.com/view/btu-lab/btu-lab-calendar">Open the BTU Calendar →</a>
-                </article>
                 <article class="panel">
-                    <span class="section-kicker">Before you attend</span>
-                    <h2>What to look for</h2>
-                    <ul class="info-list">
-                        <li>General BTU orientation</li>
-                        <li>Laser cutter orientation</li>
-                        <li>Wood shop orientation and registration</li>
-                        <li>Workshops and other scheduled events</li>
-                    </ul>
-                    <p class="small muted">Some tools require separate orientations in addition to the general session.</p>
+                    <span class="section-kicker">Community</span>
+                    <h2 id="access-title">Who can use BTU?</h2>
+                    <p>Anyone can work toward gaining access to the BTU Lab. Its stated goal is to support a diverse, inclusive community of makers.</p>
+                    <p>New members attend a general orientation before getting started.</p>
+                    <a class="button button--dark" href="Semantic.html">Read about orientation →</a>
                 </article>
+                <aside class="panel panel--yellow" aria-labelledby="guest-title">
+                    <h2 id="guest-title">Guest card note</h2>
+                    <p>Due to increased campus security, the BTU Lab says it is currently unable to sponsor BuffOne Guest cards.</p>
+                    <p class="small">Check directly with lab staff if you have access questions.</p>
+                    <a class="text-link" href="mailto:atlasbtulab@gmail.com">Email the lab →</a>
+                </aside>
             </div>
         </section>
-    
 </header>
 
-        <section class="section" aria-labelledby="events-title">
+        <section class="section section--white" aria-labelledby="staff-title">
             <div class="container">
                 <div class="section-heading">
-                    <span class="section-kicker">Plan your visit</span>
-                    <h2 id="events-title">Find the right session.</h2>
+                    <span class="section-kicker">Mischief Makers</span>
+                    <h2 id="staff-title">Meet the team.</h2>
+                    <p>The official directory introduces lab staff and what they can help with. The names below are listed in its Spring 2026 section.</p>
                 </div>
                 <div class="card-grid card-grid--three">
                     <article class="card">
-                        <span class="card-number">GENERAL</span>
-                        <h3>New-member orientation</h3>
-                        <p>A 20-minute introduction covering community expectations, safety, and equipment.</p>
-                        <a class="text-link" href="Semantic.html">About getting started →</a>
+                        <h3>Zack Weaver</h3>
+                        <p class="staff-role">Director · Assistant Teaching Professor</p>
+                        <p>General tools, wood shop, sewing, electronics, lasers, 3D printing, and Shaper CNC.</p>
+                        <a class="text-link" href="mailto:zack.weaver@colorado.edu">Email Zack →</a>
                     </article>
                     <article class="card">
-                        <span class="card-number">EQUIPMENT</span>
-                        <h3>Specialized orientations</h3>
-                        <p>Laser and wood shop access involve separate orientations; some other tools also have additional training.</p>
-                        <a class="text-link" href="Semantic.html#training-title">See requirements →</a>
+                        <h3>Bella Consentino</h3>
+                        <p class="staff-role">Spring 2026 staff · ATLAS</p>
+                        <p>Woodshop, electronics, laser cutting, sewing, modeling, 3D printing, and programming.</p>
+                        <a class="text-link" href="mailto:Bella.Consentino@colorado.edu">Email Bella →</a>
                     </article>
                     <article class="card">
-                        <span class="card-number">COMMUNITY</span>
-                        <h3>Workshops and events</h3>
-                        <p>BTU's calendar is the source for workshops and other planned events.</p>
-                        <a class="text-link" href="https://sites.google.com/view/btu-lab/btu-lab-calendar">See the official calendar →</a>
+                        <h3>Keturah Dunn</h3>
+                        <p class="staff-role">Spring 2026 staff · CU3D</p>
+                        <p>3D printing, 3D modeling, multicolor prints, and basic sewing.</p>
+                        <a class="text-link" href="mailto:kedu1409@colorado.edu">Email Keturah →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Vani Chhay</h3>
+                        <p class="staff-role">Spring 2026 staff · ATLAS</p>
+                        <p>Circuits, electronics, prototyping, soldering, 3D printing, and programming.</p>
+                        <a class="text-link" href="mailto:Vanica.Chhay@colorado.edu">Email Vani →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Terri Hughes</h3>
+                        <p class="staff-role">Spring 2026 staff · CMCI</p>
+                        <p>Sewing, fabric dyeing, 3D modeling, woodshop tools, chain making, and soldering.</p>
+                        <a class="text-link" href="mailto:Terri.Hughes@colorado.edu">Email Terri →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Leo Heuring</h3>
+                        <p class="staff-role">Spring 2026 staff · ATLAS</p>
+                        <p>3D printing, CAD, electronics, PCB work, soldering, and programming.</p>
+                        <a class="text-link" href="mailto:Leo.Heuring@colorado.edu">Email Leo →</a>
+                    </article>
+                    <article class="card">
+                        <h3>Sage Morgan-LaRosa</h3>
+                        <p class="staff-role">Spring 2026 staff · ATLAS</p>
+                        <p>3D modeling, 3D printing, coding, electronics, and general tools.</p>
+                        <a class="text-link" href="mailto:sage.morgan-larosa@colorado.edu">Email Sage →</a>
                     </article>
                 </div>
+                <p class="note-bottom">The <a class="text-link" href="https://sites.google.com/view/btu-lab/btu-mischief-makers">official Mischief Makers directory →</a> also includes former members, more skill details, and contact information.</p>
             </div>
         </section>
 
-        <section class="section section--compact section--white" aria-label="Visit information">
-            <div class="container note">
-                <p><strong>Location:</strong> 320 UCB, 1125 18th St, Boulder, CO 80309. For schedule questions, email <a href="mailto:atlasbtulab@gmail.com">atlasbtulab@gmail.com</a>.</p>
+        <section class="section section--compact" aria-labelledby="faculty-title">
+            <div class="container panel">
+                <h2 id="faculty-title">Faculty and classes</h2>
+                <p>BTU supports student, faculty, and staff coursework, research, and experimentation. The original faculty page explains classroom resources and required orientations.</p>
+                <a class="text-link" href="https://sites.google.com/view/btu-lab/faculty">Visit the faculty resources page →</a>
             </div>
         </section>
     </main>

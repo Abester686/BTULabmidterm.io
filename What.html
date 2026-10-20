@@ -114,16 +114,16 @@
                 border: 2px solid transparent;
             }
 
-            .button:hover {
+            /* .button:hover {
                 background-color: color-mix(in srgb, var(--color-primary) 80%, black);
                 border-color: var(--color-secondary);
                 transform: scale(1.05);
-            }
+            } */
 
-            .button:active {
+            /* .button:active {
                 transform: scale(0.95);
                 background-color: var(--color-secondary);
-            }
+            } */
 
             .link {
                 color: var(--color-secondary);
@@ -131,11 +131,11 @@
                 transition: color 0.3s ease, text-decoration-color 0.3s;
             }
 
-            .link:hover {
+            /* .link:hover {
                 color: var(--color-accent);
                 text-decoration: underline;
                 text-decoration-color: var(--color-highlight);
-            }
+            } */
 
             .link:visited {
                 color: var(--color-neutral);
@@ -153,13 +153,13 @@
                 background-color: var(--color-primary);
                 height: 50px;
             }
-        </style>
+    </style>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="How to get access to BTU Lab with orientations, equipment training, and safety information.">
-    <title>How | BTU Lab Redesign</title>
+    <meta name="description" content="Explore BTU Lab laser cutting, woodworking, electronics, 3D printing, textiles, and its materials policy.">
+    <title>What | BTU Lab Redesign</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -176,10 +176,10 @@
             <nav class="site-nav" aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="staff.html">Who</a></li>
-                    <li><a href="contentsofbtu.html">What</a></li>
-                    <li><a href="time.html">When</a></li>
-                    <li><a href="Semantic.html" aria-current="page">How</a></li>
+                    <li><a href="Who.html">Who</a></li>
+                    <li><a href="What.html">What</a></li>
+                    <li><a href="When.html">When</a></li>
+                    <li><a href="How.html">How</a></li>
                     <li><a href="wa6.html">WA6</a></li>
                 </ul>
             </nav>
@@ -189,93 +189,96 @@
     <main id="main">
         <section class="page-hero" aria-labelledby="page-title">
             <div class="container">
-                <p class="eyebrow">How · Getting started</p>
-                <h1 id="page-title">How to get access.</h1>
-                <p>A general orientation introduces new members to community expectations, safety, and equipment.</p>
+                <p class="eyebrow">What · Tools & materials</p>
+                <h1 id="page-title">Make things here.</h1>
+                <p>Explore the tools and resources described on the original BTU website, plus its policy for using lab materials.</p>
             </div>
         </section>
 
-        <section class="section section--white" aria-labelledby="steps-title">
-            <div class="container split">
-                <div>
-                    <span class="section-kicker">Getting started</span>
-                    <h2 id="steps-title">Start with orientation.</h2>
-                    <p>The original BTU site describes the general orientation as a 20-minute introduction.</p>
+        <section class="section section--white" aria-labelledby="tools-title">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-kicker">Tools and workspaces</span>
+                    <h2 id="tools-title">Explore lab resources.</h2>
+                    <p>Use the linked source pages for full policies, equipment lists, and required training.</p>
                 </div>
-                <div>
-                    <ol class="steps">
-                        <li>
-                            <h3>Find an orientation</h3>
-                            <p>Check the BTU calendar for general orientation opportunities.</p>
-                        </li>
-                        <li>
-                            <h3>Attend the 20-minute session</h3>
-                            <p>Review community expectations, safety practices, and equipment.</p>
-                        </li>
-                        <li>
-                            <h3>Check equipment-specific rules</h3>
-                            <p>Some resources, including laser cutters and wood shop equipment, need separate orientations.</p>
-                        </li>
-                    </ol>
-                    <a class="button button--dark" href="time.html">Find the calendar →</a>
+                <div class="card-grid card-grid--three">
+                    <article class="card">
+                        <span class="card-number">01 / LASERS</span>
+                        <h3>Laser cutting</h3>
+                        <p>BTU lists two 75W CO₂ laser cutters, with 30″ × 18″ and 40″ × 28″ work areas.</p>
+                        <div class="tags">
+                            <span class="tag">Plywood</span>
+                            <span class="tag">Plastic</span>
+                            <span class="tag">Paper</span>
+                            <span class="tag">Fabric</span>
+                        </div>
+                        <p><a class="text-link" href="https://sites.google.com/view/btu-lab/lasers">Laser equipment &amp; rules →</a></p>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">02 / WOOD SHOP</span>
+                        <h3>Woodworking</h3>
+                        <p>Tools include table saws, band saws, drill presses, sanders, saws, drills, and measuring tools.</p>
+                        <p>A separate orientation is required for wood shop access.</p>
+                        <a class="text-link" href="https://sites.google.com/view/btu-lab/wood-shop">Wood shop equipment &amp; rules →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">03 / ELECTRONICS</span>
+                        <h3>Circuits and coding</h3>
+                        <p>Resources include soldering equipment, power supplies, a digital oscilloscope, Arduino/Raspberry Pi equipment, and prototyping supplies.</p>
+                        <a class="text-link" href="https://sites.google.com/view/btu-lab/electronics">Electronics resources →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">04 / 3D PRINTING</span>
+                        <h3>3D printing</h3>
+                        <p>BTU provides 3D printing support and asks users to complete a one-time, equipment-specific orientation.</p>
+                        <a class="text-link" href="https://sites.google.com/view/btu-lab/faculty">3D printing information →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">05 / TEXTILES</span>
+                        <h3>Sewing and textiles</h3>
+                        <p>BTU staff list sewing, textiles, and fabric-related making among the skills they can support.</p>
+                        <a class="text-link" href="staff.html">Find a staff member →</a>
+                    </article>
+                    <article class="card">
+                        <span class="card-number">06 / WORKSPACE</span>
+                        <h3>Creative community space</h3>
+                        <p>The lab is a general workspace and workshop space for making across art, design, engineering, and architecture.</p>
+                        <a class="text-link" href="index.html">About BTU →</a>
+                    </article>
                 </div>
             </div>
         </section>
 </header>
 
-        <section class="section" aria-labelledby="training-title">
-            <div class="container">
-                <div class="section-heading">
-                    <span class="section-kicker">Equipment orientation</span>
-                    <h2 id="training-title">Different tools, different training.</h2>
-                    <p>The lab's original pages give more detailed requirements for specialized tools.</p>
-                </div>
-                <div class="card-grid card-grid--four">
-                    <article class="card">
-                        <span class="card-number">LASER CUTTERS</span>
-                        <h3>Separate orientation</h3>
-                        <p>Members need laser orientation for independent access. Staff and “Lazor Wizards” can provide guided support.</p>
-                        <a class="text-link" href="https://sites.google.com/view/btu-lab/lasers">Laser details →</a>
-                    </article>
-                    <article class="card">
-                        <span class="card-number">WOOD SHOP</span>
-                        <h3>Separate orientation</h3>
-                        <p>Registration is required. The orientation schedule and registration link are on the BTU calendar.</p>
-                        <a class="text-link" href="https://sites.google.com/view/btu-lab/wood-shop">Wood shop rules →</a>
-                    </article>
-                    <article class="card">
-                        <span class="card-number">3D PRINTING</span>
-                        <h3>10–15 minute orientation</h3>
-                        <p>The faculty resources page notes a one-time orientation for 3D printing, available on request for individuals or classes.</p>
-                        <a class="text-link" href="https://sites.google.com/view/btu-lab/faculty">Printing guidance →</a>
-                    </article>
-                    <article class="card">
-                        <span class="card-number">ELECTRONICS</span>
-                        <h3>Training on request</h3>
-                        <p>Electronics and coding training may be arranged with BTU staff or community members.</p>
-                        <a class="text-link" href="https://sites.google.com/view/btu-lab/electronics">Electronics details →</a>
-                    </article>
-                </div>
+        <section class="section" aria-labelledby="materials-title">
+            <div class="container split">
+                <article class="panel panel--yellow">
+                    <span class="section-kicker">Materials policy</span>
+                    <h2 id="materials-title">Materials are an exchange.</h2>
+                    <p>The original BTU site emphasizes that the lab is <strong>not a free supply store</strong>. Members who need materials are asked to give something back to the community.</p>
+                </article>
+                <article class="panel">
+                    <h2>Ways to contribute</h2>
+                    <ul class="info-list">
+                        <li>Display work you made in the lab</li>
+                        <li>Tag BTU in social media posts</li>
+                        <li>Offer a workshop</li>
+                        <li>Volunteer to organize supplies</li>
+                    </ul>
+                    <p class="small muted">These examples come from BTU's original materials policy.</p>
+                </article>
             </div>
         </section>
 
-        <section class="section section--white" aria-labelledby="safety-title">
-            <div class="container split">
-                <article class="panel">
-                    <span class="section-kicker">Wood shop safety</span>
-                    <h2 id="safety-title">Safety matters.</h2>
-                    <ul class="info-list">
-                        <li>Only use equipment you know how to operate; ask for assistance when unsure.</li>
-                        <li>Do not work alone when you could be out of earshot of others.</li>
-                        <li>Report damaged or malfunctioning tools to staff.</li>
-                        <li>Major wood shop machines are powered off daily from 10 p.m. to 6 a.m.</li>
-                    </ul>
-                </article>
-                <aside class="panel panel--yellow">
-                    <h2>Need help?</h2>
-                    <p>Mischief Makers help community members learn and work with BTU equipment.</p>
-                    <a class="button button--dark" href="staff.html">Meet the team →</a>
-                </aside>
+        <section class="section section--white" aria-labelledby="questions-title">
+            <div class="container panel">
+                <h2 id="questions-title">Have a question about a project or resource?</h2>
+                <p>Email BTU Lab directly or contact the Mischief Makers who specialize in the type of work you want to do.</p>
+                <div class="button-row">
+                    <a class="button button--dark" href="mailto:atlasbtulab@gmail.com">Email BTU Lab →</a>
+                    <a class="text-link" href="staff.html">Meet Mischief Makers →</a>
+                </div>
             </div>
         </section>
     </main>
