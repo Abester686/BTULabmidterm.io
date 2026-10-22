@@ -301,6 +301,9 @@ small, .small {
 .page-hero .eyebrow {
   margin-bottom: .8rem;
 }
+{.page-photo {
+  margin: 1.65rem 0 0;
+}
 
 /* BUTTONS AND LINKS */
 
