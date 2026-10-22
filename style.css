@@ -788,7 +788,18 @@ small, .small {
   .container {
     width: min(100% - 2rem, 1120px);
   }
-
+.hero-photo {
+box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
+}
+.herophoto img {
+  height: 280px;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center;
+}
+.section {
+  padding-block: 2.5rem;
+}
   .header-inner {
     display: block;
     padding-block: .85rem;
