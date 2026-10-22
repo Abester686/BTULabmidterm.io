@@ -187,9 +187,10 @@ small, .small {
 } */
 
 .site-nav a[aria-current="page"] {
-  color: var(--deep);
-  background: #dcecf6;
-  box-shadow: inset 0 -3px 0 #1d678e;
+  color: #000;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
 }
 
 /* HERO SECTIONS */
