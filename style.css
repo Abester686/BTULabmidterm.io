@@ -882,3 +882,11 @@ small, .small {
 .steps li {
   padding-left: 0;
 }
+.site-nav a[aria-current="page"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  color: #000000 !important;
+}
