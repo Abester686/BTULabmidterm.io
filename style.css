@@ -747,9 +747,12 @@ small, .small {
 /* FOOTER */
 
 .site-footer {
-  background: #1c3144;
-  color: #e4eef5;
-  padding-block: 2rem;
+  background: transparent;
+  color: var(--ink);
+  border-top: 1px solid var(--border);
+  padding-block: 1.5rem;
+  margin-top: 3rem;
+  font-size: .9rem;
 }
 
 .footer-inner {
@@ -765,18 +768,18 @@ small, .small {
 }
 
 .site-footer a {
-  color: #b8e4ff;
+  color: #15577f;
 }
 
 .footer-title {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--ink);
 }
 
 .disclaimer {
-  font-size: .86rem;
-  color: #c2d1db;
+  font-size: .862rem;
+  color: var(--ink-muted);
 }
 
 /* RESPONSIVE TABLET LAYOUT */
@@ -809,6 +812,7 @@ small, .small {
   .container {
     flex-direction: column;
   }
+<<<<<<< HEAD
 }
 
 @media (max-width: 640px) {
@@ -816,6 +820,20 @@ small, .small {
     width: min(100% - 2rem, 1120px);
   } */
 
+=======
+.hero-photo {
+box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
+}
+.herophoto img {
+  height: 280px;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center;
+}
+.section {
+  padding-block: 2.5rem;
+}
+>>>>>>> 537241e88989d1e498af9e3a54fb7796e2809068
   .header-inner {
     display: block;
     padding-block: .85rem;
