@@ -808,19 +808,17 @@ small, .small {
 
 /* RESPONSIVE PHONE LAYOUT */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .container {
     flex-direction: column;
   }
-<<<<<<< HEAD
-}
+} */
 
 @media (max-width: 640px) {
   /* .container {
     width: min(100% - 2rem, 1120px);
   } */
 
-=======
 .hero-photo {
 box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
 }
@@ -833,7 +831,6 @@ box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
 .section {
   padding-block: 2.5rem;
 }
->>>>>>> 537241e88989d1e498af9e3a54fb7796e2809068
   .header-inner {
     display: block;
     padding-block: .85rem;
