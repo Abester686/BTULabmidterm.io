@@ -413,11 +413,35 @@ small, .small {
 }
 
 .card {
-  background: var(--surface);
+  /* background: red; */
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.6rem;
   box-shadow: var(--shadow);
+}
+
+.laser {
+  background-color: pink;
+}
+
+.wood {
+  background-color: #F3CFCE;
+}
+
+.sewing {
+  background-color: #fdfd96;
+}
+
+.electronics {
+  background-color: skyblue;
+}
+
+.printing {
+  background-color: #C9A0DC;
+}
+
+.workspace {
+  background-color: #6eb9ff;
 }
 
 .card h3 {
@@ -781,11 +805,16 @@ small, .small {
 
 /* RESPONSIVE PHONE LAYOUT */
 
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
 
 @media (max-width: 640px) {
-  .container {
+  /* .container {
     width: min(100% - 2rem, 1120px);
-  }
+  } */
 
   .header-inner {
     display: block;
@@ -801,7 +830,7 @@ small, .small {
   }
 
   .site-nav a {
-    padding: .5rem .62rem;
+    padding: .2rem .3rem;
     font-size: .87rem;
   }
 
