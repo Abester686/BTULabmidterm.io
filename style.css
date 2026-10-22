@@ -301,6 +301,9 @@ small, .small {
 .page-hero .eyebrow {
   margin-bottom: .8rem;
 }
+{.page-photo {
+  margin: 1.65rem 0 0;
+}
 
 /* BUTTONS AND LINKS */
 
@@ -812,17 +815,16 @@ small, .small {
   .container {
     flex-direction: column;
   }
-} */
+}  */
 
 @media (max-width: 640px) {
-  /* .container {
+  .container {
     width: min(100% - 2rem, 1120px);
-  } */
-
+  } 
 .hero-photo {
 box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
 }
-.herophoto img {
+.hero-photo img {
   height: 280px;
   aspect-ratio: auto;
   object-fit: cover;
