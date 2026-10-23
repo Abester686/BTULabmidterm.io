@@ -119,9 +119,17 @@ small, .small {
 
 /* HEADER AND NAVIGATION */
 
-.site-header {
+/* .site-header {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+} */
+
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cbd8e1;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header-inner {
