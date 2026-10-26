@@ -868,11 +868,11 @@ small, .small {
 <<<<<<< HEAD
 }
 
+
 @media (max-width: 640px) {
   .container {
     width: min(100% - 2rem, 1120px);
   }
-.staff-card,
     .staff-card:nth-child(even) {
         flex-direction: column;
         text-align: center;
@@ -882,7 +882,9 @@ small, .small {
         width: 150px;
         height: 150px;
     }
+}
 
+  
 =======
 >>>>>>> 1769ae28585855ecd563429b5cdb3b43e13be5a8
 .hero-photo {
