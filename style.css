@@ -567,7 +567,7 @@ small, .small {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    grid-column: 1 / -1;
+    grid-colum: 1 / -1;
 }
 
 .staff-card {
@@ -930,7 +930,6 @@ small, .small {
             }
           }
 
->>>>>>> 1769ae28585855ecd563429b5cdb3b43e13be5a8
 .hero-photo {
 box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
 }
@@ -943,7 +942,6 @@ box-shadow: 7px 8px 0 rgba(241, 196, 15, .22);
 .section {
   padding-block: 2.5rem;
 } }
->>>>>>> 1769ae28585855ecd563429b5cdb3b43e13be5a8
   .header-inner {
     display: block;
     padding-block: .85rem;
