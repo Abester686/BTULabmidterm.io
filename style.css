@@ -567,6 +567,7 @@ small, .small {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    grid-column: 1 / -1;
 }
 
 .staff-card {
