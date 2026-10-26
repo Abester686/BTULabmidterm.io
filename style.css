@@ -561,6 +561,43 @@ small, .small {
   margin-bottom: .7rem;
 }
 
+/* STAFF CARD LAYOUT */
+
+.staff-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.staff-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+}
+
+/* Profile images */
+
+.staff-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+/* Staff information */
+
+.staff-info {
+    flex: 1;
+}
+
+/* Alternate every second card */
+
+.staff-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 /* TAGS */
 
 .tag {
@@ -834,7 +871,17 @@ small, .small {
 @media (max-width: 640px) {
   .container {
     width: min(100% - 2rem, 1120px);
-  } */
+  }
+.staff-card,
+    .staff-card:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .staff-card img {
+        width: 150px;
+        height: 150px;
+    }
 
 =======
 >>>>>>> 1769ae28585855ecd563429b5cdb3b43e13be5a8
